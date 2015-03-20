@@ -1,0 +1,17 @@
+1. A chord of a cycle is an edge between two non-consecutive edges in the cycle
+2. A graph G is chordal if every cycle of length four or more has a chord
+3. An elimination ordering pie (T) is a numbering of the vertices in G from 1 to n. The fill-in F(T) caused by the ordering T is the "set of edges" defined as follows:
+	F(T) = {{v,w} | v != w, {v, w} != E, and there is a path in G from v to w using v1, v2, ... vk vertices such that T(vi) < min{T(v),T(w)} for i = 2,....,k-1}
+	- meaning that F(T) are sets of vertices that we add to graph G between two vertices
+	v and w, when:
+	- v is not equal to w,
+	- v and w do not already share an edge
+	- There are 2 to k-1 vertices that form a path from v to w
+
+*Defn: 3 connected components is a graph whereby the minimum number of nodes or edges needed to disconnect the graph is 3.*
+
+*Defn: clique in an undirected graph is a subset of its vertices such that every two vertices in the subset are connected by an edge.*
+
+*Defn:  an independent set or stable set is a set of vertices in a graph, no two of which are adjacent. That is, it is a set I of vertices such that for every two vertices in I, there is no edge connecting the two. Equivalently, each edge in the graph has at most one endpoint in I.*
+
+*Defn: bipartite graph (or bigraph) is a graph whose vertices can be divided into two disjoint sets and (that is, and are each independent sets) such that every edge connects a vertex in to one in.*

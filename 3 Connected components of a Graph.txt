@@ -1,0 +1,13 @@
+Name: Chibuzor Alumba
+Course: Graph 
+Student Number: 7642209
+
+Project Proposal
+-----------------
+
+Connectivity, 3-Connected Components
+Code an algorithm for finding separating pairs, and use it to construct the 3-connected components of a graph.
+
+- My goal will be to perform some initial research on 3-connected components of a graph to determine what has already been done
+- Next I will try to find out some nice properties that will help me identify 3-connected components in a graph
+- Finally, I will either create a new algorithm to find the 3-connected components or work on optimizing an already existing algorithm using the nice properties about 3-connected components I find
